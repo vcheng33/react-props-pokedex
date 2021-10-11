@@ -1,5 +1,5 @@
 
-import Pokedex from './Pokedex';
+import Pokegame from './Pokegame';
 import './App.css';
 
 const ALL_POKEMON = [
@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <Pokedex pokedex={ALL_POKEMON} />
+          <Pokegame pokedex={ALL_POKEMON} />
         </div>
       </header>
     </div>
