@@ -13,6 +13,7 @@ const ALL_POKEMON = [
   {id: 133, name: 'Eevee',      type: 'normal',   base_experience: 65}
 ];
 
+/** App that runs the Pokegame */
 function App() {
   return (
     <div className="App">

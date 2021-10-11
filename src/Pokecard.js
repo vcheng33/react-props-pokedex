@@ -1,6 +1,8 @@
 const IMAGE_URL = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/';
 
-/** */
+/** Information about a single Pokemon.
+ *  Includes, name, id, type, and experience
+*/
 function Pokecard({ name, id, type, exp }) {
     console.log("pokemon");
     return (
