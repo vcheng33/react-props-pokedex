@@ -8,4 +8,4 @@ function shuffle(items) {
     return items;
 }
 
-export default shuffle;
+export {shuffle};
